@@ -1,13 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu aniversario</title>
-    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
 </head>
+
 <body>
-    <h1>olá</h1>
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero__title">Se prepare para o meu aniversario</h1>
+            <div class="row">
+                <div class="col-2">
+                    <img class="hero__img" src="/src/images/1.png" alt="">
+                </div>
+                <div class="col-2">
+                    <img class="hero__img"  src="/src/images/2.png" alt="">
+                </div>
+                <div class="col-2">
+                    <img class="hero__img"  src="/src/images/3.png" alt="">
+                </div>
+            </div>
+            <p class="hero__text">
+                Contagem regressiva: 10d 20h 50m 30s
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua BootStrap - Jquery - Numero : NaN
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Presente</b>
+                        Sua presença
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Horario</b>
+                        as 20h00 horas
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary"> Confirme sua presença</a>
+            </div>
+            
+        </div>
+    </section>
     <script src="scripts/main.js"></script>
 </body>
+
 </html>

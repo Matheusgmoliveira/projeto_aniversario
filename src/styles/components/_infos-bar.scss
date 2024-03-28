@@ -1,0 +1,26 @@
+@use '../variables';
+
+.infos-bar{
+    background-color: variables.$textColor;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px;
+    &__infos{
+       
+        display: flex;
+        gap: 40px;
+
+        &__item{
+            color: variables.$secondaryTextColor;;
+            font-size: 14px;
+
+            b{
+                font-size: 18px;
+                color: variables.$secondaryTextColor;;
+                display: block;
+            }
+        }
+
+    }
+    
+}

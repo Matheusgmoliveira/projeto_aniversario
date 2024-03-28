@@ -1,0 +1,14 @@
+.button{
+    display: flex;
+    padding: 12px;
+    font-size: 18px;
+    align-items: center;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &--primary{
+        color: #fff;
+        background-color: purple;
+        font-weight: bold;
+    }
+}
