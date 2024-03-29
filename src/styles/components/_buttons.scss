@@ -11,4 +11,14 @@
         background-color: purple;
         font-weight: bold;
     }
+
+    @media(max-width:640px){
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    @media(max-width:1024px){
+        display: flex;
+        align-items: center;
+    }
 }

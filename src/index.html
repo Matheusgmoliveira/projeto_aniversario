@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./styles/main.scss">
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
 </head>
@@ -18,20 +19,22 @@
     <section class="hero">
         <div class="container">
             <h1 class="hero__title">Se prepare para o meu aniversario</h1>
-            <div class="row">
+            <div class=" row"   >
                 <div class="col-2">
-                    <img class="hero__img" src="/src/images/1.png" alt="">
+                    <img  class="hero__img md-4" src="/src/images/1.png"  data-aos="fade-right" alt="">
                 </div>
                 <div class="col-2">
-                    <img class="hero__img"  src="/src/images/2.png" alt="">
+                    <img class="hero__img md-4"  src="/src/images/2.png" data-aos="fade-up"alt="">
                 </div>
                 <div class="col-2">
-                    <img class="hero__img"  src="/src/images/3.png" alt="">
+                    <img class="hero__img md-4"  src="/src/images/3.png"data-aos="fade-left" alt="">
                 </div>
             </div>
             <p class="hero__text">
-                Contagem regressiva: 10d 20h 50m 30s
+                Contagem regressiva:
             </p>
+
+            <p class="hero__text" id="contador"></p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
@@ -52,6 +55,8 @@
             
         </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/lib/jquery-3.7.1.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 
